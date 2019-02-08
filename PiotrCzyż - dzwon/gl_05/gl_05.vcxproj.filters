@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\elements">
+      <UniqueIdentifier>{587b7ab2-f9f3-4acd-a405-c568ad880624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\elements">
+      <UniqueIdentifier>{5903e149-e265-4485-951d-b50f3eaa3a06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldElement.cpp">
+      <Filter>Source Files\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="RightPole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UpperPole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rope.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="callbackFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Clapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Holder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lever.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="skyboxShader.vert" />
+    <None Include="mainShader.frag" />
+    <None Include="mainShader.vert" />
+    <None Include="skyboxShader.frag" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RightPole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UpperPole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rope.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CallbackFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Clapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lever.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Holder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="skybox\tyl.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="skybox\top.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="skybox\back.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="skybox\bottom.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="skybox\dol.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="skybox\front.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="skybox\gora.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="skybox\left.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="skybox\lewa.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="skybox\prawo.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="skybox\right.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="skybox\srodek.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\dark-wood.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\dol.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\gold.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\light-wood.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\rope.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\sand.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\sand1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\sand3.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\sandbig.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

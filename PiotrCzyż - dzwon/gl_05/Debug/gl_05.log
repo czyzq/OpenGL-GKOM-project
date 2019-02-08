@@ -1,0 +1,79 @@
+﻿Build started 02.06.2017 04:53:15.
+     1>Project "C:\Users\crux3\Desktop\GKOM\dzwon\PiotrCzyż - dzwon\gl_05\gl_05.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (gl_05.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Bell.cpp Camera.cpp Clapper.cpp Lever.cpp Shader.cpp WorldElement.cpp callbackFunctions.cpp
+         Lever.cpp
+     1>Lever.cpp(118): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+         Clapper.cpp
+     1>Clapper.cpp(127): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\utility(144): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+                 Clapper.cpp(28) : see reference to function template instantiation 'std::pair<GLfloat,GLfloat>::pair<double,float,void>(_Other1 &&,_Other2 &&)' being compiled
+                 with
+                 [
+                     _Other1=double
+         ,            _Other2=float
+                 ]
+                 Clapper.cpp(28) : see reference to function template instantiation 'std::pair<GLfloat,GLfloat>::pair<double,float,void>(_Other1 &&,_Other2 &&)' being compiled
+                 with
+                 [
+                     _Other1=double
+         ,            _Other2=float
+                 ]
+         Bell.cpp
+     1>Bell.cpp(131): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         callbackFunctions.cpp
+         WorldElement.cpp
+         Shader.cpp
+         Camera.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\crux3\Desktop\GKOM\dzwon\PiotrCzyż - dzwon\Debug\Dzwon.exe" /INCREMENTAL:NO /NOLOGO opengl32.lib glfw3.lib glew32s.lib soil.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:msvcrt.lib /NODEFAULTLIB:libcmt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\crux3\Desktop\GKOM\dzwon\PiotrCzyż - dzwon\Debug\Dzwon.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\crux3\Desktop\GKOM\dzwon\PiotrCzyż - dzwon\Debug\Dzwon.lib" /MACHINE:X86 Debug\Holder.obj
+         Debug\callbackFunctions.obj
+         Debug\Camera.obj
+         Debug\Field.obj
+         Debug\Clapper.obj
+         Debug\main.obj
+         Debug\Bell.obj
+         Debug\Lever.obj
+         Debug\Rope.obj
+         Debug\Pole.obj
+         Debug\RightPole.obj
+         Debug\Shader.obj
+         Debug\UpperPole.obj
+         Debug\WorldElement.obj
+         soil.lib(SOIL.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+         Generating code
+         Finished generating code
+     1>main.obj : warning LNK4049: locally defined symbol _glewInit@0 imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewActiveTexture imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewBindBuffer imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewBufferData imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewGenBuffers imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewEnableVertexAttribArray imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewGetUniformLocation imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewUniform1i imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewUniformMatrix4fv imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewUseProgram imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewVertexAttribPointer imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewBindVertexArray imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewGenVertexArrays imported
+     1>main.obj : warning LNK4049: locally defined symbol _glewExperimental imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewAttachShader imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewCompileShader imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewCreateProgram imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewCreateShader imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewDeleteShader imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewGetProgramInfoLog imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewGetProgramiv imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewGetShaderInfoLog imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewGetShaderiv imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewLinkProgram imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewShaderSource imported
+         gl_05.vcxproj -> C:\Users\crux3\Desktop\GKOM\dzwon\PiotrCzyż - dzwon\Debug\Dzwon.exe
+     1>Done Building Project "C:\Users\crux3\Desktop\GKOM\dzwon\PiotrCzyż - dzwon\gl_05\gl_05.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.37
